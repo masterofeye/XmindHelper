@@ -9,9 +9,14 @@ namespace XMindHelper.HighLevelHelper
 {
    class Statement
    {
+      public Statement(String Icon, String Text)
+      {
+         _iconState = Icon;
+         _statementText = Text;
+      }
+
       String _iconState;
       String _statementText;
-
 
       public String IconState
       {
@@ -24,8 +29,6 @@ namespace XMindHelper.HighLevelHelper
             _iconState = value;
          }
       }
-
-
 
       public String StatementText
       {
@@ -41,8 +44,14 @@ namespace XMindHelper.HighLevelHelper
 
    }
 
-   class Messure
+   class Measure
    {
+      public Measure(String Icon, String Text)
+      {
+         _iconState = Icon;
+         _messureText = Text;
+      }
+
       String _iconState;
       String _messureText;
 
@@ -80,9 +89,9 @@ namespace XMindHelper.HighLevelHelper
       private UInt32 _mrNumber;
       private String _proposalText;
       private List<Statement> _statementList;
-      private List<String> _measureList;
+      private List<Measure> _measureList;
 
-      public ModificationRequest(String MRTitel, UInt32 MRNumber, String ProposalText, List<Statement> StatementList, List<String> MeasureList)
+      public ModificationRequest(String MRTitel, UInt32 MRNumber, String ProposalText, List<Statement> StatementList, List<Measure> MeasureList)
       {
          _mrTitel = MRTitel;
          _mrNumber = MRNumber;
@@ -91,7 +100,7 @@ namespace XMindHelper.HighLevelHelper
          _measureList = MeasureList;
       }
 
-      public void CreateMR()
+      public Topic CreateMR()
       {
          /*MR Number*/
          Topic mrNumber = new Topic(_mrNumber.ToString());
@@ -99,16 +108,16 @@ namespace XMindHelper.HighLevelHelper
 
          /*Unterpunkte erzeugen*/
          Topics subTopics = new Topics("attached");
-         subTopics.AddTopic(new Topic("MR Text"));
+         subTopics.AddTopic(new Topic(_mrTitel));
 
          /*Statement Subtopic anlegen und dazugehörigen Statments hinzufügen*/
          Topic statement = new Topic("Statement-List");
-         Topics subTopicsStatement = new Topics("attached");
+
          foreach (var item in _statementList)
          {
-            subTopicsStatement.AddTopic(new Topic(item.StatementText, item.IconState));
+            statement.AddSubTopicToAttached(new Topic(item.StatementText, item.IconState));
          }
-         statement.AddSubTopics(subTopicsStatement);
+
 
          subTopics.AddTopic(statement);
          subTopics.AddTopic(new Topic("CCB"));
@@ -118,18 +127,17 @@ namespace XMindHelper.HighLevelHelper
 
          /*Statement Subtopic anlegen und dazugehörigen Statments hinzufügen*/
          Topic measure = new Topic("Measure-List");
-         Topics subTopicsMeasure = new Topics("attached");
-         foreach (var item in _statementList)
+         foreach (var item in _measureList)
          {
-            subTopicsStatement.AddTopic(new Topic(item.StatementText, item.IconState));
+            measure.AddSubTopicToAttached(new Topic(item.MessureText, item.IconState));
          }
-         statement.AddSubTopics(subTopicsStatement);
-         subTopics.AddTopic(new Topic("Measure-List"));
+
+         subTopics.AddTopic(measure);
          subTopics.AddTopic(new Topic("Branch-Responsibility"));
          subTopics.AddTopic(new Topic("MR Test"));
          /*Suptopics in das Topic hinzufügen*/
          mrNumber.Children.AddTopics(subTopics);
-         
+         return mrNumber;
       }
 
       public void DelteMR()

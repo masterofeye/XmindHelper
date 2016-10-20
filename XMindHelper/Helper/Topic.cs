@@ -223,6 +223,44 @@ namespace XMindHelper.Helper
 
 
 
+      public void AddSubTopicToAttached(Topic SubTopic)
+      {
+         if (_children == null)
+         {
+            _children = new Children();
+            _children.AddTopics(new Topics("attached"));
+         }
+
+         Topics attached = _children.TopicsList.Find(item => item.Type == "attached");
+         if (attached != null)
+            attached.AddTopic(SubTopic);
+         else
+         {
+            _children.AddTopics(new Topics("attached"));
+            attached = _children.TopicsList.Find(item => item.Type == "attached");
+            attached.AddTopic(SubTopic);
+         }
+      }
+
+      public void AddSubTopicToDetached(Topic SubTopic)
+      {
+         if (_children == null)
+         {
+            _children = new Children();
+            _children.AddTopics(new Topics("detached"));
+         }
+
+         Topics detached = _children.TopicsList.Find(item => item.Type == "detached");
+         if (detached != null)
+            detached.AddTopic(SubTopic);
+         else
+         {
+            _children.AddTopics(new Topics("detached"));
+            detached = _children.TopicsList.Find(item => item.Type == "detached");
+            detached.AddTopic(SubTopic);
+         }
+      }
+
       public static Topic ParseXmlNode(XElement Node)
       {
           Topic t = new Topic();

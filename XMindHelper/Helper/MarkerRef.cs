@@ -11,7 +11,7 @@ namespace XMindHelper.Helper
    class MarkerRef
    {
       public MarkerRef() { }
-      public MarkerRef(String MarkerID) { _marker_id = MarkerID}
+      public MarkerRef(String MarkerID) { _marker_id = MarkerID; }
 
 
       private String _marker_id;

@@ -17,6 +17,7 @@ using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Linq;
 using XMindHelper.Helper;
+using XMindHelper.HighLevelHelper;
 
 
 namespace XMindHelper
@@ -42,8 +43,13 @@ namespace XMindHelper
               x = XMap_Content.CreateXmlNode(ns, xml);
               var target = doc.Root.Elements();
 
+              ModificationRequest request = new ModificationRequest("Hallo Welt", 12345, "Hier könnte dein text stehen", new List<Statement>() { new Statement("symbol-question", "GS4") }, new List<Measure>() { new Measure("symbol-question", "GS4") });
+             
 
-              XElement el = Topic.CreateXmlNode(ns,mrnumber);
+
+
+
+              XElement el = Topic.CreateXmlNode(ns,  request.CreateMR());
 
               XElement elasd =  x.Descendants(ns + Constants.TITLE).Where(e => e.Value == "asd").FirstOrDefault();
               elasd.Parent.Parent.Add(el);
