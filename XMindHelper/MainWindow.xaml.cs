@@ -75,5 +75,17 @@ namespace XMindHelper
 
            //yourResult.Save(@"C:\Users\Master\Desktop\content2.xml");
        }
+
+       private void Button_Click(object sender, RoutedEventArgs e)
+       {
+          GridStellungnehmer.RowDefinitions.Add(new RowDefinition() { Height = GridLength.Auto });
+
+          int gridChildrenCount = GridStellungnehmer.Children.Count;
+          XMindHelper.ListItem item = new XMindHelper.ListItem();
+          Grid.SetRow(item, gridChildrenCount - 1);
+          Grid.SetColumn(item, 0);
+          GridStellungnehmer.Children.Add(item);
+
+       }
    }
 }

@@ -72,7 +72,14 @@
     <Compile Include="HighLevelHelper\ModificationRequest.cs" />
     <Compile Include="HighLevelHelper\OpenPointList.cs" />
     <Compile Include="HighLevelHelper\SystemTestFinding.cs" />
+    <Compile Include="ListItem.xaml.cs">
+      <DependentUpon>ListItem.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Util.cs" />
+    <Page Include="ListItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
