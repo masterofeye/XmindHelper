@@ -56,14 +56,20 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Constants.cs" />
+    <Compile Include="Helper\AutomaticStyles.cs" />
     <Compile Include="Helper\Boundaries.cs" />
     <Compile Include="Helper\Boundary.cs" />
     <Compile Include="Helper\Hml.cs" />
+    <Compile Include="Helper\MasterStyles.cs" />
     <Compile Include="Helper\Notes.cs" />
     <Compile Include="Helper\Plain.cs" />
+    <Compile Include="Helper\Properties.cs" />
     <Compile Include="Helper\Relationship.cs" />
     <Compile Include="Helper\Relationships.cs" />
     <Compile Include="Helper\Sheet.cs" />
+    <Compile Include="Helper\Style.cs" />
+    <Compile Include="Helper\Styles.cs" />
+    <Compile Include="Helper\SummaryProperties.cs" />
     <Compile Include="Helper\Xhtml.cs" />
     <Compile Include="Helper\XMap_Content.cs" />
     <Compile Include="HighLevelHelper\CustomerFinding.cs" />
@@ -72,7 +78,20 @@
     <Compile Include="HighLevelHelper\ModificationRequest.cs" />
     <Compile Include="HighLevelHelper\OpenPointList.cs" />
     <Compile Include="HighLevelHelper\SystemTestFinding.cs" />
+    <Compile Include="ListItem.xaml.cs">
+      <DependentUpon>ListItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="Util.cs" />
+    <Page Include="ListItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -103,24 +122,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

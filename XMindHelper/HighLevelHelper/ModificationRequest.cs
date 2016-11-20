@@ -95,7 +95,7 @@ namespace XMindHelper.HighLevelHelper
       {
          _mrTitel = MRTitel;
          _mrNumber = MRNumber;
-         _mrTitel = ProposalText;
+         _proposalText = ProposalText;
          _statementList = StatementList;
          _measureList = MeasureList;
       }
@@ -127,9 +127,12 @@ namespace XMindHelper.HighLevelHelper
 
          /*Statement Subtopic anlegen und dazugehörigen Statments hinzufügen*/
          Topic measure = new Topic("Measure-List");
-         foreach (var item in _measureList)
+         if (_measureList != null && _measureList.Count > 0)
          {
-            measure.AddSubTopicToAttached(new Topic(item.MessureText, item.IconState));
+            foreach (var item in _measureList)
+            {
+               measure.AddSubTopicToAttached(new Topic(item.MessureText, item.IconState));
+            }
          }
 
          subTopics.AddTopic(measure);

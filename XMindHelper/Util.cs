@@ -85,7 +85,7 @@ namespace XMindHelper
       private static XElement GetElementWithTitle(XDocument Doc,String Title, XNamespace Ns)
       {
          XElement elasd = Doc.Descendants(Ns + Constants.TITLE).Where(e => e.Value == Title).FirstOrDefault();
-         elasd.Parent.Parent.Add(el);
+         return null;
       }
 
    }

@@ -1,7 +1,119 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XMindHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Projects" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;BR213IC-GC-EL_MY16&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-EL_MY17&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-EL_MY18&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-EL_SOP&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-EL205MY18&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-HL_MY16&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-HL_MY17&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-HL_MY18&lt;/string&gt;
+  &lt;string&gt;BR213IC-GC-HL_SOP&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SamplePhase" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;E24&lt;/string&gt;
+  &lt;string&gt;E25&lt;/string&gt;
+  &lt;string&gt;E27&lt;/string&gt;
+  &lt;string&gt;E32&lt;/string&gt;
+  &lt;string&gt;E33&lt;/string&gt;
+  &lt;string&gt;E34&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SWRelease" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;pre10&lt;/string&gt;
+  &lt;string&gt;pre15&lt;/string&gt;
+  &lt;string&gt;pre20&lt;/string&gt;
+  &lt;string&gt;pre21&lt;/string&gt;
+  &lt;string&gt;pre22&lt;/string&gt;
+  &lt;string&gt;pre23&lt;/string&gt;
+  &lt;string&gt;pre24&lt;/string&gt;
+  &lt;string&gt;pre25&lt;/string&gt;
+  &lt;string&gt;pre26&lt;/string&gt;
+  &lt;string&gt;pre27&lt;/string&gt;
+  &lt;string&gt;pre28&lt;/string&gt;
+  &lt;string&gt;pre29&lt;/string&gt;
+  &lt;string&gt;pre30&lt;/string&gt;
+  &lt;string&gt;pre31&lt;/string&gt;
+  &lt;string&gt;pre32&lt;/string&gt;
+  &lt;string&gt;pre33&lt;/string&gt;
+  &lt;string&gt;pre34&lt;/string&gt;
+  &lt;string&gt;pre35&lt;/string&gt;
+  &lt;string&gt;pre36&lt;/string&gt;
+  &lt;string&gt;pre37&lt;/string&gt;
+  &lt;string&gt;pre38&lt;/string&gt;
+  &lt;string&gt;pre39&lt;/string&gt;
+  &lt;string&gt;pre40&lt;/string&gt;
+  &lt;string&gt;pre41&lt;/string&gt;
+  &lt;string&gt;pre42&lt;/string&gt;
+  &lt;string&gt;pre43&lt;/string&gt;
+  &lt;string&gt;pre44&lt;/string&gt;
+  &lt;string&gt;pre45&lt;/string&gt;
+  &lt;string&gt;pre46&lt;/string&gt;
+  &lt;string&gt;pre47&lt;/string&gt;
+  &lt;string&gt;pre48&lt;/string&gt;
+  &lt;string&gt;pre49&lt;/string&gt;
+  &lt;string&gt;pre50&lt;/string&gt;
+  &lt;string&gt;pre51&lt;/string&gt;
+  &lt;string&gt;pre52&lt;/string&gt;
+  &lt;string&gt;pre53&lt;/string&gt;
+  &lt;string&gt;pre54&lt;/string&gt;
+  &lt;string&gt;pre55&lt;/string&gt;
+  &lt;string&gt;pre56&lt;/string&gt;
+  &lt;string&gt;pre57&lt;/string&gt;
+  &lt;string&gt;pre58&lt;/string&gt;
+  &lt;string&gt;pre59&lt;/string&gt;
+  &lt;string&gt;pre60&lt;/string&gt;
+  &lt;string&gt;pre61&lt;/string&gt;
+  &lt;string&gt;pre62&lt;/string&gt;
+  &lt;string&gt;pre63&lt;/string&gt;
+  &lt;string&gt;pre64&lt;/string&gt;
+  &lt;string&gt;pre65&lt;/string&gt;
+  &lt;string&gt;pre66&lt;/string&gt;
+  &lt;string&gt;pre67&lt;/string&gt;
+  &lt;string&gt;pre68&lt;/string&gt;
+  &lt;string&gt;pre69&lt;/string&gt;
+  &lt;string&gt;pre70&lt;/string&gt;
+  &lt;string&gt;pre71&lt;/string&gt;
+  &lt;string&gt;pre72&lt;/string&gt;
+  &lt;string&gt;pre73&lt;/string&gt;
+  &lt;string&gt;pre74&lt;/string&gt;
+  &lt;string&gt;pre75&lt;/string&gt;
+  &lt;string&gt;pre76&lt;/string&gt;
+  &lt;string&gt;pre77&lt;/string&gt;
+  &lt;string&gt;pre78&lt;/string&gt;
+  &lt;string&gt;pre79&lt;/string&gt;
+  &lt;string&gt;pre80&lt;/string&gt;
+  &lt;string&gt;pre81&lt;/string&gt;
+  &lt;string&gt;pre82&lt;/string&gt;
+  &lt;string&gt;pre83&lt;/string&gt;
+  &lt;string&gt;pre84&lt;/string&gt;
+  &lt;string&gt;pre85&lt;/string&gt;
+  &lt;string&gt;pre86&lt;/string&gt;
+  &lt;string&gt;pre87&lt;/string&gt;
+  &lt;string&gt;pre88&lt;/string&gt;
+  &lt;string&gt;pre89&lt;/string&gt;
+  &lt;string&gt;pre90&lt;/string&gt;
+  &lt;string&gt;pre91&lt;/string&gt;
+  &lt;string&gt;pre92&lt;/string&gt;
+  &lt;string&gt;pre93&lt;/string&gt;
+  &lt;string&gt;pre94&lt;/string&gt;
+  &lt;string&gt;pre95&lt;/string&gt;
+  &lt;string&gt;pre96&lt;/string&gt;
+  &lt;string&gt;pre97&lt;/string&gt;
+  &lt;string&gt;pre98&lt;/string&gt;
+  &lt;string&gt;pre99&lt;/string&gt;
+  &lt;string&gt;pre100&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
