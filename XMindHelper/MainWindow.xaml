@@ -40,6 +40,8 @@
                   <Grid Name="GridStellungnehmer">
                      <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
+
+                        <RowDefinition Height="Auto" />
                      </Grid.RowDefinitions>
                      <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="200" />
@@ -73,6 +75,7 @@
                   </Grid>
                </GroupBox>
                <Button Content="Create"  Grid.Column="0" Grid.Row="8" Name="CreateEntry" Click="Button_CreateEntry"></Button>
+
             </Grid>
          </TabItem>
          <TabItem Header="SSTS">
