@@ -69,5 +69,52 @@ namespace XMindHelper
         public const String BOUNDARY = "boundary";
         public const String RANGE = "range";
 
+        /*automatic-styles*/
+        public const String AUTOMATICSTLES = "automatic-styles";
+
+        /*master-style*/
+        public const String MASTERSTYLES = "master-styles";
+
+        /*style*/
+        public const String STYLE = "stlye";
+        public const String NAME = "name";
+
+        public const String FONTFAMILIY = "font-familiy";
+        public const String FONTSIZE = "font-size";
+        public const String FONTSYTLE = "font-style";
+        public const String FONTWEIGHT = "font-weight";
+        public const String TEXTDECORATION = "text-decoration";
+        public const String TEXTTRANSFORMATION = "text-transform";
+
+        public const String LINECOLOR = "line-color";
+        public const String LINEWIDHT = "line-width";
+        public const String LINEPATTERN = "line-pattern";
+        public const String LINETAPERED = "line-tapered";
+
+        public const String BORDERLINECOLOR = "border-line-color";
+        public const String BORDERLINEWIDTH = "border-line-width";
+
+        public const String SHAPECLASS = "shape-class";
+        public const String FILL = "fill";
+
+        /*theme-properties*/
+        public const String THEMEPROPERTIES = "theme-properties";
+
+        /*relationship-properties*/
+        public const String RELATIONSHIPPROPERTIES = "relationship-properties";
+
+        /*topic-properties*/
+        public const String TOPICPROPERTIES = "topic-properties";
+
+        /*map-properties*/
+        public const String MAPPROPERTIES = "map-properties";
+
+        /*boundary-properties*/
+        public const String BOUNDARYPROPERTIES = "boundary-properties";
+
+        /*summary-properties*/
+        public const String SUMMARYPROPERTIES = "summary-properties";
+
+
     }
 }

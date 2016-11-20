@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmap-styles xmlns="urn:xmind:xmap:xmlns:style:2.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" version="2.0">
+	<automatic-styles>
+		<style id="5veo51q3t9vpaqnmaqbutjimel" name="" type="summary">
+			<summary-properties line-color="#3076DC" line-width="1pt" shape-class="org.xmind.summaryShape.curly"/>
+		</style>
+		<style id="1reme3ade5355lu51d90defqms" name="" type="topic">
+			<topic-properties fo:font-family="Open Sans"/>
+		</style>
+		<style id="2h6kog72l7ortjcjhvbn26iir8" name="" type="boundary">
+			<boundary-properties fo:color="#FFFFFF" fo:font-family="Georgia" fo:font-size="10pt" fo:font-style="italic" line-color="#4583C2" line-pattern="solid" line-width="1pt" shape-class="org.xmind.boundaryShape.roundedPolygon" svg:fill="#4583C2" svg:opacity=".2"/>
+		</style>
+		<style id="5c8dkmbp3gpv5u6s9rq1kh4nit" name="" type="topic">
+			<topic-properties border-line-color="#F1BD51" border-line-width="1pt" fo:font-family="Open Sans" svg:fill="#FBF09C"/>
+		</style>
+		<style id="1lfm79ifsd6qal9bfn9l8orh0p" name="" type="topic">
+			<topic-properties border-line-color="#3D537F" border-line-width="1pt" fo:font-family="Open Sans" line-class="org.xmind.branchConnection.curve" line-color="#7F7F7F" line-width="1pt" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#CADDFE"/>
+		</style>
+		<style id="4kdo57dt7m3ncsvhhukeo7lmad" name="" type="topic">
+			<topic-properties border-line-color="#8D867E" border-line-width="1pt" fo:font-family="Open Sans" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#FEF4EC"/>
+		</style>
+		<style id="7mkti12afp0a55e876ccurgiu0" name="" type="topic">
+			<topic-properties border-line-width="0pt" fo:color="#FFFFFF" fo:font-family="Georgia" fo:font-size="10pt" fo:font-style="italic" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#2A70D9"/>
+		</style>
+		<style id="0g17mbn2p5pvv583dm7s2j0b2t" name="" type="relationship">
+			<relationship-properties arrow-end-class="org.xmind.arrowShape.triangle" fo:color="#595959" fo:font-family="Georgia" fo:font-size="10pt" fo:font-style="italic" fo:font-weight="normal" fo:text-decoration="none" line-color="#B62C25" line-pattern="dash" line-width="3pt"/>
+		</style>
+		<style id="3497d56ejh2p4n4nmfq5tk02be" name="" type="topic">
+			<topic-properties border-line-width="0pt" fo:color="#FFFFFF" fo:font-family="Open Sans" fo:font-weight="bold" svg:fill="#7F7F7F"/>
+		</style>
+		<style id="6383oh41ddslgsihs33ja13k5e" name="" type="map">
+			<map-properties color-gradient="none" line-tapered="none" multi-line-colors="none" svg:fill="#FFFFFF"/>
+		</style>
+	</automatic-styles>
+	<master-styles>
+		<style id="19prd4kta5mffr9qsdmluv3unq" name="" type="theme">
+			<theme-properties>
+				<default-style style-family="summary" style-id="5veo51q3t9vpaqnmaqbutjimel"/>
+				<default-style style-family="subTopic" style-id="1reme3ade5355lu51d90defqms"/>
+				<default-style style-family="boundary" style-id="2h6kog72l7ortjcjhvbn26iir8"/>
+				<default-style style-family="calloutTopic" style-id="5c8dkmbp3gpv5u6s9rq1kh4nit"/>
+				<default-style style-family="centralTopic" style-id="1lfm79ifsd6qal9bfn9l8orh0p"/>
+				<default-style style-family="mainTopic" style-id="4kdo57dt7m3ncsvhhukeo7lmad"/>
+				<default-style style-family="summaryTopic" style-id="7mkti12afp0a55e876ccurgiu0"/>
+				<default-style style-family="relationship" style-id="0g17mbn2p5pvv583dm7s2j0b2t"/>
+				<default-style style-family="floatingTopic" style-id="3497d56ejh2p4n4nmfq5tk02be"/>
+				<default-style style-family="map" style-id="6383oh41ddslgsihs33ja13k5e"/>
+			</theme-properties>
+		</style>
+	</master-styles>
+	<styles>
+		<style id="6nhkqaulrfdefj909qlkc74bi2" name="" type="topic">
+			<topic-properties border-line-color="#A4E100" line-color="#A4E100"/>
+		</style>
+		<style id="2eehgpp1qirk33h1mqjous81uf" name="" type="topic">
+			<topic-properties fo:text-decoration="normal"/>
+		</style>
+		<style id="28u24dpt635gdpro2msetcsg7v" name="" type="topic">
+			<topic-properties fo:text-decoration="line-through"/>
+		</style>
+		<style id="0eboe2d36u6am9tme10rf18gji" name="" type="topic">
+			<topic-properties fo:color="#FF0D00" fo:font-size="12pt" fo:font-weight="bold"/>
+		</style>
+		<style id="3as2tgujaaukjgmm6etjj9b4pf" name="" type="topic">
+			<topic-properties fo:color="#FF0D00" fo:font-weight="bold" fo:text-decoration="line-through"/>
+		</style>
+		<style id="5n70fhqrjfrn2e44i71sucg0g9" name="" type="topic">
+			<topic-properties line-color="#FF0D00"/>
+		</style>
+		<style id="27prb4447d94eopuovrksiiur8" name="" type="topic">
+			<topic-properties svg:fill="#FFE866"/>
+		</style>
+		<style id="5gtqlei3j36e6j338ojc9c3gqh" name="" type="topic">
+			<topic-properties fo:color="#FF0D00" fo:font-weight="bold"/>
+		</style>
+		<style id="4s9pej1t6tcgmbd9chhcik8lnp" name="" type="topic">
+			<topic-properties fo:color="#FF6E66" fo:font-weight="bold"/>
+		</style>
+		<style id="5sjfdckg24h6tqna5i3q7eida5" type="topic">
+			<topic-properties border-line-width="2pt" fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/>
+		</style>
+		<style id="1g6kbcs1hmc1659ucbocqdktp0" type="topic">
+			<topic-properties fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#C3D69B"/>
+		</style>
+		<style id="2bvd9so55a96qv7h1qnluha47p" name="" type="topic">
+			<topic-properties fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#C3D69B"/>
+		</style>
+		<style id="5o29f49j7rd9ji8a19dv1p4dfv" name="" type="topic">
+			<topic-properties border-line-width="2pt" fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/>
+		</style>
+		<style id="499sfjecesnugt3ck6clbkqao1" name="" type="topic">
+			<topic-properties fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect" svg:fill="#C3D69B"/>
+		</style>
+		<style id="70d1upc5husuc8ak0s8q9k3953" name="" type="topic">
+			<topic-properties border-line-width="2pt" fo:font-size="12pt" fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/>
+		</style>
+		<style id="1hjf88n5vf3bhrsogdfpkm9gec" type="topic">
+			<topic-properties border-line-color="#E6B9B8" border-line-width="4pt" fo:color="#FF0D00" fo:font-family="Segoe Script" fo:font-size="11pt" fo:font-style="italic" fo:font-weight="bold" fo:text-decoration="underline line-through" fo:text-transform="uppercase" line-color="#558ED5" line-width="2pt" shape-class="org.xmind.topicShape.ellipse" svg:fill="#8EB4E3"/>
+		</style>
+	</styles>
+</xmap-styles>
