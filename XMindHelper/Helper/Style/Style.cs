@@ -17,6 +17,13 @@ namespace XMindHelper.Helper
       private String _id;
       private String _name;
       private String _type;
+      private Properties _propertie;
+
+      public Properties Propertie
+      {
+         get { return _propertie; }
+         set { _propertie = value; }
+      }
 
       public String ID
       {
@@ -54,6 +61,8 @@ namespace XMindHelper.Helper
          }
       }
 
+
+
       public static Style ParseXmlNode(XElement Node)
       {
          Style s = new Style();
@@ -76,31 +85,31 @@ namespace XMindHelper.Helper
             }
          }
 
-         IEnumerable<XElement> nodeliste = Node.Elements();
-         foreach (XElement item in nodeliste)
-         {
-            switch (item.Name.LocalName)
-            {
-               case Constants.TITLE:
-                  t.Title = Title.ParseXmlNode(item);
-                  break;
-               case Constants.MARKER_REFS:
-                  t.MarkerRefs = MarkerRefs.ParseXmlNode(item);
-                  break;
-               case Constants.LABELS:
-                  t.Labels = Labels.ParseXmlNode(item);
-                  break;
-               case Constants.CHILDREND:
-                  t.Children = Children.ParseXmlNode(item);
-                  break;
-               case Constants.BOUNDARIES:
-                  t.Boundaries = Boundaries.ParseXmlNode(item);
-                  break;
-               default:
-                  break;
-            }
-         }
-         return t;
+         //IEnumerable<XElement> nodeliste = Node.Elements();
+         //foreach (XElement item in nodeliste)
+         //{
+         //   switch (item.Name.LocalName)
+         //   {
+         //      case Constants.TOPICPROPERTIES:
+         //         t.Title = .ParseXmlNode(item);
+         //         break;
+         //      case Constants.MARKER_REFS:
+         //         t.MarkerRefs = MarkerRefs.ParseXmlNode(item);
+         //         break;
+         //      case Constants.LABELS:
+         //         t.Labels = Labels.ParseXmlNode(item);
+         //         break;
+         //      case Constants.CHILDREND:
+         //         t.Children = Children.ParseXmlNode(item);
+         //         break;
+         //      case Constants.BOUNDARIES:
+         //         t.Boundaries = Boundaries.ParseXmlNode(item);
+         //         break;
+         //      default:
+         //         break;
+         //   }
+         //}
+         return s;
       }
 
       public static XElement CreateXmlNode(XNamespace Ns, Title T)

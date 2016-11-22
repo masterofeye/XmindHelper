@@ -85,11 +85,14 @@ namespace XMindHelper
         public const String FONTWEIGHT = "font-weight";
         public const String TEXTDECORATION = "text-decoration";
         public const String TEXTTRANSFORMATION = "text-transform";
+        public const String COLOR = "color";
 
         public const String LINECOLOR = "line-color";
         public const String LINEWIDHT = "line-width";
         public const String LINEPATTERN = "line-pattern";
         public const String LINETAPERED = "line-tapered";
+        public const String LINECLASS = "line-class";
+
 
         public const String BORDERLINECOLOR = "border-line-color";
         public const String BORDERLINEWIDTH = "border-line-width";
