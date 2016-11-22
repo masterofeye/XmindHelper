@@ -93,7 +93,16 @@
          <TabItem Header="Project">
             <Grid Background="#FFE5E5E5"/>
          </TabItem>
-      </TabControl>
+         <TabItem Header="Excel">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="229*"/>
+                    <ColumnDefinition Width="27*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Content="Create Timeline" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="120" Click="Button_CreateTimeline"/>
+            </Grid>
+            </TabItem>
+        </TabControl>
 
    </Grid>
 </Window>

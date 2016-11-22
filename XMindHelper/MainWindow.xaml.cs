@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Linq;
+using XMindHelper.ExcelTimeline;
 using XMindHelper.Helper;
 using XMindHelper.HighLevelHelper;
 
@@ -291,6 +292,13 @@ namespace XMindHelper
          File.Delete(@"C:\Projekte\XMindHelper\Beispiel\ICBWMDL.xmind");
          ZipFile.CreateFromDirectory(@"C:\Projekte\XMindHelper\Beispiel\extracted\", @"C:\Projekte\XMindHelper\Beispiel\ICBWMDL.xmind");
          Directory.Delete(@"C:\Projekte\XMindHelper\Beispiel\extracted\", true);
+      }
+
+      private void Button_CreateTimeline(object sender, RoutedEventArgs e)
+      {
+         Timeline t = new Timeline();
+         t.CreateApplication();
+         t.CreateTimeLineWorkbook();
       }
    }
 }
