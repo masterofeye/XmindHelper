@@ -56,7 +56,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Constants.cs" />
+    <Compile Include="ExcelTimeline\Projekt.cs" />
+    <Compile Include="ExcelTimeline\SamplePhase.cs" />
+    <Compile Include="ExcelTimeline\SoftwareRealease.cs" />
     <Compile Include="ExcelTimeline\Timeline.cs" />
+    <Compile Include="ExcelTimeline\TimeLineParser.cs" />
     <Compile Include="Helper\Properties\BoundaryProperties.cs" />
     <Compile Include="Helper\Properties\MapProperties.cs" />
     <Compile Include="Helper\Properties\RelationshipProperties.cs" />

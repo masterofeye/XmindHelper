@@ -82,6 +82,11 @@ namespace XMindHelper.ExcelTimeline
          return P;
       }
 
+      private String[] SplitSampleAndSoftware(String Value)
+      { 
+         
+      }
+
       private SamplePhase ParseSamplePhase(SamplePhase P, String[] Split)
       {
          if (P == null)
@@ -95,7 +100,7 @@ namespace XMindHelper.ExcelTimeline
             if (P.SamplePhase == Split[SAMPLEPHASE])
             {
                SoftwareRealease sw;
-               if (P.SoftwareReleaseList.TryGetValue(Split[SoftwareRealease], out sw))
+               if (P.SoftwareReleaseList.TryGetValue(Split[SOFT], out sw))
                {
                   //SamplePhase existiert schon 
                   ParseSamplePhase(phase, Split);
